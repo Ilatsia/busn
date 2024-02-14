@@ -1,0 +1,146 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('six.jpg') no-repeat center fixed;  
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+.Contacts{
+   background-color: green;
+   position: fixed;
+   width: 100%;
+   height: 60px;
+   align-items: right;
+   border-style: none;
+   float: inline-end;
+   top: 0;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0%;
+    height: 60px;
+    width: 100%;
+    background-color:green;
+    align-items: left;
+}
+.call{
+    
+    
+}
+.navigation {
+     position: fixed;
+     margin-top: 4%;
+     border-top: 01vh;
+     height: 100px;
+     width: 100%;
+     display: inline-block;
+     display:flex;
+     flex-direction: row;
+     background-color:antiquewhite;
+     text-decoration-color: black;
+     border-style: none;
+
+}
+.logo{
+    flex:20%;
+    border-color: azure;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+.ul{
+    align-content: center;
+    float:right;
+}
+.menuBar{
+    flex:50% ;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+    
+  }
+  
+.chat{
+    flex:20% ;
+   margin-right: 0%;
+}
+.main{
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    font-size: x-large;
+    color:bisque;
+    border-style: none;
+}
+.info{
+    margin: auto;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    
+}
+.myproject{
+    margin:auto;
+    background-color: whitesmoke;
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+.columnA{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+
+}
+.columnB{
+    flex: 50%;
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+}
+.row{
+    flex:25%;
+    border-style: dotted;
+}
+
+.footer{
+    position:fixed;
+    width:100%;
+    height:60px;
+    bottom: 0;
+    background-color:transparent;
+    text-align-last: right;
+}
+
+@media(max-width:600px){
+    .body{
+    
+        flex-wrap: nowrap;
+    }
+    .img{
+        max-width: 100%;
+        height: auto !important;
+    }
+    .main{
+        flex-direction: column;
+        width: 100%;
+        height: auto !important;
+    }
+    
+    .footer{
+        bottom: auto;
+    }
+    
+
+}
